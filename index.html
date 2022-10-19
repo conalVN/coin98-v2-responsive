@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Giúp responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- xác định tác giả page -->
+	<meta name="author" content="ConalVN">
+	<!-- Mô tả về page -->
+	<meta name="description" content="HTML CSS Learn Free Course">
+	<!-- xác định từ khóa tìm kiếm cho web -->
+	<meta name="keywords" content="HTML, CSS, Javascript">
+	<!-- Làm mới page sau 60s -->
+	<meta http-equiv="refresh" content="60">
+	<!-- <base href="https://github.com/conalVN" target="_blank"> -->
+	<!-- title website -->
+	<title>HTML CSS Master</title>
+	<!-- xác định resource css -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,200,0,0" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+	<header>
+		<div class="lg-header">
+			<div class="container">
+				<section class="top">
+					<div class="logo">
+						<img src="./images/logoCoin98Insight.svg" alt="">
+					</div>
+					<div class="feature">
+						<div class="input-group">
+							<span class="icon material-symbols-outlined">search</span>
+							<input type="text" class="form-control" placeholder="Tìm kiếm">
+						</div>
+						<div class="icon connect">
+							<span class="material-symbols-outlined">swap_calls</span>
+						</div>
+						<a href="#" class="btn-login">
+							Đăng nhập
+						</a>
+						<div class="icon settings">
+							<span class="material-symbols-outlined">settings</span>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="bottom">
+				<div class="container">
+					<section class="nav">
+						<div class="nav-title">
+							<p>Portal</p>
+						</div>
+						<div class="nav-title">
+							<p>Người mới</p>
+							<span class="material-symbols-outlined">expand_more</span>
+							<ul class="sub__menu">
+								<li class="sub__menu-item">Sàn giao dịch</li>
+								<li class="sub__menu-item">Ví trữ coin</li>
+								<li class="sub__menu-item">Thuật ngữ Crypto</li>
+								<li class="sub__menu-item">Công cụ</li>
+								<li class="sub__menu-item">Mua bán coin</li>
+								<li class="sub__menu-item">Khóa học đầu tư</li>
+							</ul>
+						</div>
+						<div class="nav-title">
+							<p>Hệ sinh thái</p>
+							<span class="material-symbols-outlined">expand_more</span>
+							<ul class="sub__menu">
+								<li class="sub__menu-item">Cosmos</li>
+								<li class="sub__menu-item">Ethereum</li>
+								<li class="sub__menu-item">BSC</li>
+								<li class="sub__menu-item">Polkadot</li>
+								<li class="sub__menu-item">Solana</li>
+								<li class="sub__menu-item">Near</li>
+								<li class="sub__menu-item">Avalanche</li>
+								<li class="sub__menu-item">Tera</li>
+								<li class="sub__menu-item">Hệ sinh thái khác</li>
+							</ul>
+						</div>
+						<div class="nav-title">
+							<p>Kiến thức</p>
+							<span class="material-symbols-outlined">expand_more</span>
+							<ul class="sub__menu">
+								<li class="sub__menu-item">DEFI Lego</li>
+								<li class="sub__menu-item">PTKT</li>
+								<li class="sub__menu-item">Hướng dẫn Defi</li>
+								<li class="sub__menu-item">Podcast</li>
+								<li class="sub__menu-item">Quỹ đầu tư</li>
+								<li class="sub__menu-item">Coins & Tokens</li>
+								<li class="sub__menu-item">Weekly</li>
+								<li class="sub__menu-item">Report</li>
+							</ul>
+						</div>
+						<div class="nav-title">
+							<p>Kiếm tiền</p>
+							<span class="material-symbols-outlined">expand_more</span>
+							<ul class="sub__menu">
+								<li class="sub__menu-item">Airdrop & Bounty</li>
+								<li class="sub__menu-item">Skin In The Game</li>
+								<li class="sub__menu-item">Kiếm tiền cùng Coin98</li>
+								<li class="sub__menu-item">IDO, IEO, SHO, ICO</li>
+								<li class="sub__menu-item">Khác</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div class="md-header">
+			<div class="container">
+				<section class="top">
+					<div>
+						<div class="icon menu">
+							<span class="material-symbols-outlined">menu</span>
+						</div>
+						<div class="logo">
+							<img src="./images/logoCoin98Insight.svg" alt="">
+						</div>
+					</div>
+					<div class="feature">
+						<div class="input-group">
+							<span class="icon material-symbols-outlined">search</span>
+							<input type="text" class="form-control" placeholder="Tìm kiếm">
+						</div>
+						<div class="icon connect">
+							<span class="material-symbols-outlined">swap_calls</span>
+						</div>
+						<a href="#" class="btn-login">
+							Đăng nhập
+						</a>
+						<div class="icon settings">
+							<span class="material-symbols-outlined">settings</span>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</header>	
+	<main>
+		<div class="container">
+			<div class="banner">
+				<div class="banner-slider">
+					<div class="slider-wrapper">
+						<div class="slider-item">
+							<div class="slider-image">
+								<img src="./images/sl.png" alt="bluemove">
+							</div>
+							<div class="slider-name">
+								<p>Hướng dẫn sử dụng BlueMove có cơ hội kiếm tiền</p>
+							</div>
+						</div>
+						<div class="slider-item">
+							<div class="slider-image">
+								<img src="./images/sl1.png" alt="bluemove">
+							</div>
+							<div class="slider-name">
+								<p>Arther Hayes là ai? Hành trình "lên voi xuống chó" của co-founder BitMEX</p>
+							</div>
+						</div>
+						<div class="slider-item">
+							<div class="slider-image">
+								<img src="./images/sl2.png" alt="bluemove">
+							</div>
+							<div class="slider-name">
+								<p>Phân tích Solana Q3/2022: Sau cơn mưa trời lại sáng?</p>
+							</div>
+						</div>
+						<div class="slider-item">
+							<div class="slider-image">
+								<img src="./images/sl3.png" alt="bluemove">
+							</div>
+							<div class="slider-name">
+								<p>Phân tích Avalanche Q3/2022: Subnet mới lộ diện</p>
+							</div>
+						</div>
+						<div class="icon btn-prev">
+							<span class="material-symbols-outlined">arrow_back_ios</span>
+						</div>
+						<div class="icon btn-next">
+							<span class="material-symbols-outlined">arrow_forward_ios</span>
+						</div>
+					</div>
+				</div>
+				<div class="banner-news">
+					<ul class="news">
+						<li class="news-item">
+							<div><img src="./images/sl.png" alt=""></div>
+							<p class="news-title">Hướng dẫn sử dụng BlueMode có cơ hội kiếm tiền</p>
+						</li>
+						<li class="news-item">
+							<div><img src="./images/sl1.png" alt=""></div>
+							<p class="news-title">Arther Hayes là ai? Hành trình "lên voi xuống chó" của co-founder BitMex</p>
+						</li>
+						<li class="news-item">
+							<div><img src="./images/sl2.png" alt=""></div>
+							<p class="news-title">Phân tích Solana Q3/2022: Sau cơn mưa trời lại sáng?</p>
+						</li>
+						<li class="news-item">
+							<div><img src="./images/sl3.png" alt=""></div>
+							<p class="news-title">Phân tích Avalanche Q3/2022: Subnet mới lộ diện</p>
+						</li>
+						<li class="news-item">
+							<div><img src="./images/sl.png" alt=""></div>
+							<p class="news-title">Darksharding (DS). Proton-Darksharding (PDS) và EIP-4488 là gì?</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="posts">
+				<h2 class="posts-heading">Bài viết mới nhất</h2>
+				<div class="posts-wrapper">
+					<div class="row">
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Top 5 công cụ on-chain crypto không thể bỏ qua khi đầu tư (2022)</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post1.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Sàn HitBTC là gì? Đánh giá & Hướng dẫn sử dụng sàn HitBTC</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post2.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Justin Sun là ai? Người xây dựng đế chế TRON trên thành công và tranh cãi</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post3.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">FED là gi? FED ảnh hưởng thế nào tới thị trường crypto?</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post4.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Các chương trình, sự kiện kiếm tiền cùng Coin98 trong tháng 10</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post5.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Phân tích Layer2 Q3/2022: Arbitrum và Optimism là tâm điểm</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="posts">
+				<h2 class="posts-heading">Dành cho người mới</h2>
+				<div class="posts-wrapper">
+					<div class="row">
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Top 5 công cụ on-chain crypto không thể bỏ qua khi đầu tư (2022)</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post1.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Sàn HitBTC là gì? Đánh giá & Hướng dẫn sử dụng sàn HitBTC</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post2.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Justin Sun là ai? Người xây dựng đế chế TRON trên thành công và tranh cãi</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post6.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Sybil Attack là gì? Các hình thức tấn công mạo nhận trong crypto</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post7.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Faucet Crypto là gì? 3 bước kiếm tiền vốn 0 đồng nhờ faucet crypto</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="post">
+								<div class="post-image">
+									<img src="./images/post8.png" alt="congcu">
+									<div>
+										<span class="material-symbols-outlined">favorite</span>
+										<span>0</span>
+										<span class="eye material-symbols-outlined">visibility</span>
+										<span>270</span>
+									</div>
+								</div>
+								<div class="post__body">
+									<p class="post-title">Layer 1 Blockchain là gì? Cơ sở phát triển trong thị trường crypto</p>
+								</div>
+								<div class="post-footer">
+									<div class="author">
+										<div class="author-avt">
+											<img src="./images/Yang.png" alt="yang">
+										</div>
+										<p class="author-name">Yang</p>
+										<p class="timeup">18 giờ trước</p>
+									</div>
+									<span class="material-symbols-outlined">bookmark</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post-slider-wrapper">
+			<div class="container">
+				<h2 class="posts-heading">Coins & Tokens</h2>
+				<div class="post-slide">
+					<div class="post-slide-item">
+						<div class="post">
+							<div class="post-image">
+								<img src="./images/post.png" alt="congcu">
+								<div>
+									<span class="material-symbols-outlined">favorite</span>
+									<span>0</span>
+									<span class="eye material-symbols-outlined">visibility</span>
+									<span>270</span>
+								</div>
+							</div>
+							<div class="post__body">
+								<p class="post-title">Top 5 công cụ on-chain crypto không thể bỏ qua khi đầu tư (2022)</p>
+							</div>
+							<div class="post-footer">
+								<div class="author">
+									<div class="author-avt">
+										<img src="./images/Yang.png" alt="yang">
+									</div>
+									<p class="author-name">Yang</p>
+									<p class="timeup">18 giờ trước</p>
+								</div>
+								<span class="material-symbols-outlined">bookmark</span>
+							</div>
+						</div>
+					</div>
+					<div class="post-slide-item active">
+						<div class="post">
+							<div class="post-image">
+								<img src="./images/post9.png" alt="congcu">
+								<div>
+									<span class="material-symbols-outlined">favorite</span>
+									<span>0</span>
+									<span class="eye material-symbols-outlined">visibility</span>
+									<span>270</span>
+								</div>
+							</div>
+							<div class="post__body">
+								<p class="post-title">BitciChain (BITCI) là gì? Toàn tập về tiền điện tử BITCI</p>
+							</div>
+							<div class="post-footer">
+								<div class="author">
+									<div class="author-avt">
+										<img src="./images/Yang.png" alt="yang">
+									</div>
+									<p class="author-name">Yang</p>
+									<p class="timeup">18 giờ trước</p>
+								</div>
+								<span class="material-symbols-outlined">bookmark</span>
+							</div>
+						</div>
+					</div>
+					<div class="post-slide-item">
+						<div class="post">
+							<div class="post-image">
+								<img src="./images/post10.png" alt="congcu">
+								<div>
+									<span class="material-symbols-outlined">favorite</span>
+									<span>0</span>
+									<span class="eye material-symbols-outlined">visibility</span>
+									<span>270</span>
+								</div>
+							</div>
+							<div class="post__body">
+								<p class="post-title">Chain of Alliance (COA) là gì? Toàn tập về tiền điện tử COA </p>
+							</div>
+							<div class="post-footer">
+								<div class="author">
+									<div class="author-avt">
+										<img src="./images/Yang.png" alt="yang">
+									</div>
+									<p class="author-name">Yang</p>
+									<p class="timeup">18 giờ trước</p>
+								</div>
+								<span class="material-symbols-outlined">bookmark</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h2 class="posts-heading">Hệ sinh thái</h2>
+			<div class="chain">
+				<div class="chain-image">
+					<img src="./images/avalanche.png" alt="">
+					<div>
+						<span class="material-symbols-outlined">favorite</span>
+						<span>0</span>
+						<span class="eye material-symbols-outlined">visibility</span>
+						<span>270</span>
+					</div>
+				</div>
+				<div class="chain-body">
+					<h4 class="chain-name">Phân tích Avalanche Q3/2022: Subnet mới lộ diện</h4>
+					<p class="chain-desc">Avalanche tiếp tục giảm TVL, Ava Labs bị tố cáo trong vụ bê bối về pháp lý? Liệu điều gì sẽ xảy ra tiếp theo với Avalanche</p>
+					<div>
+						<div class="author">
+							<div class="author-avt">
+								<img src="./images/Yang.png" alt="yang">
+							</div>
+							<p class="author-name">Yang</p>
+							<p class="timeup">10/10</p>
+						</div>
+						<span class="material-symbols-outlined">bookmark</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<div class="chain">
+						<div class="chain-image">
+							<img src="./images/solana.png" alt="">
+							<div>
+								<span class="material-symbols-outlined">favorite</span>
+								<span>0</span>
+								<span class="eye material-symbols-outlined">visibility</span>
+								<span>270</span>
+							</div>
+						</div>
+						<div class="chain-body">
+							<h4 class="chain-name">Phân tích Solana Q3/2022: Sau cơn mưa trời lại sáng?</h4>
+							<p class="chain-desc">Bối cảnh hiện tại của solana như thế nào? Liệu hệ sinh thái nào có tiềm năng phát triển trong tương lai. Cùng tìm hiểu trong bài phân tích Solana</p>
+							<div>
+								<div class="author">
+									<div class="author-avt">
+										<img src="./images/Yang.png" alt="yang">
+									</div>
+									<p class="author-name">Yang</p>
+									<p class="timeup">10/10</p>
+								</div>
+								<span class="material-symbols-outlined">bookmark</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="chain">
+						<div class="chain-image">
+							<img src="./images/Aptos.png" alt="">
+							<div>
+								<span class="material-symbols-outlined">favorite</span>
+								<span>0</span>
+								<span class="eye material-symbols-outlined">visibility</span>
+								<span>270</span>
+							</div>
+						</div>
+						<div class="chain-body">
+							<h4 class="chain-name">Phân tích hệ sinh thái Aptos & Sui Q3/2022</h4>
+							<p class="chain-desc">Aptos & Sui thu hút được rất nhiều sự chú ý trong Q3 vừa qua, liệu 2 dự án này ở giai đoạn phát triển nào?</p>
+							<div>
+								<div class="author">
+									<div class="author-avt">
+										<img src="./images/Yang.png" alt="yang">
+									</div>
+									<p class="author-name">Yang</p>
+									<p class="timeup">10/10</p>
+								</div>
+								<span class="material-symbols-outlined">bookmark</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<div class="chain">
+						<div class="chain-image">
+							<img src="./images/Etherum.png" alt="">
+							<div>
+								<span class="material-symbols-outlined">favorite</span>
+								<span>0</span>
+								<span class="eye material-symbols-outlined">visibility</span>
+								<span>270</span>
+							</div>
+						</div>
+						<div class="chain-body">
+							<h4 class="chain-name">Phân tích On-chain Ethereum #4: Trước thềm The Merge</h4>
+							<p class="chain-desc">Ethereum 2.0 Đang tới rất gần, đây là một sự kiện mang tính lịch sử của crypto. Thậm chí, tầm quan trọng của sự kiện này còn được một số người nhận
+								định là ngang với Bitcoin Halving...
+							</p>
+							<div>
+								<div class="author">
+									<div class="author-avt">
+										<img src="./images/Yang.png" alt="yang">
+									</div>
+									<p class="author-name">Yang</p>
+									<p class="timeup">9/9</p>
+								</div>
+								<span class="material-symbols-outlined">bookmark</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="chain">
+						<div class="chain-image">
+							<img src="./images/Sui.png" alt="">
+							<div>
+								<span class="material-symbols-outlined">favorite</span>
+								<span>0</span>
+								<span class="eye material-symbols-outlined">visibility</span>
+								<span>270</span>
+							</div>
+						</div>
+						<div class="chain-body">
+							<h4 class="chain-name">Tổng quan hệ sinh thái Sui</h4>
+							<p class="chain-desc">Sui là blockchain đặc biệt, sử dụng ngôn ngữ lập trình Move và có khả năng mở rộng đáng chú ý. ..</p>
+							<div>
+								<div class="author">
+									<div class="author-avt">
+										<img src="./images/Yang.png" alt="yang">
+									</div>
+									<p class="author-name">Yang</p>
+									<p class="timeup">18/8</p>
+								</div>
+								<span class="material-symbols-outlined">bookmark</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container d-flex flex-wrap">
+			<div class="f-left">
+				<div class="logo">
+					<img src="./images/logoCoin98Insight.svg" alt="">
+				</div>
+				<ul class="social d-flex">
+					<li>
+						<a href="#">
+							<img src="./images/fb.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/yt.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/tw.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/tl.svg" alt="">
+						</a>
+					</li>
+				</ul>
+				<div class="apps d-flex">
+					<div class="app-store">
+						<img src="./images/store.svg" alt="">
+					</div>
+					<div class="app-chplay">
+						<img src="./images/chplay.svg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="f-right d-flex">
+				<ul>
+					<li>
+						<h6>Về chúng tôi</h6>
+					</li>
+					<li>Về chúng tôi</li>
+					<li>Tuyển dụng</li>
+				</ul>
+				<ul>
+					<li>
+						<h6>Sản phẩm</h6>
+					</li>
+					<li>Ví</li>
+					<li>Exchange</li>
+					<li>Thị trường</li>
+					<li>Danh mục</li>
+				</ul>
+				<ul>
+					<li>
+						<h6>Hỗ trợ</h6>
+					</li>
+					<li>Email</li>
+					<li>Live Chat</li>
+				</ul>
+				<ul>
+					<li>
+						<h6>Cộng đồng</h6>
+					</li>
+					<li>Nhóm chat</li>
+					<li>Telegram News</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
